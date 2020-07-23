@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="xiaomi-ulysse"
+           fetch="https://github.com/xiaomi-ulysse"
+           revision="android-9.0" />
+
+ <!-- Xiaomi Redmi Note 5A Lite -->
+  <project path="device/xiaomi/ugglite" name="twrp_device_xiaomi_ugglite" groups="device" remote="xiaomi-ulysse"/>
+
+ <!-- Xiaomi Redmi Note 5A Prime -->
+  <project path="device/xiaomi/ugg"     name="twrp_device_xiaomi_ugg"     groups="device" remote="xiaomi-ulysse"/>
+
+</manifest>
