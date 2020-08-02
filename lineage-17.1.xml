@@ -4,6 +4,9 @@
            fetch="https://github.com/xiaomi-ulysse"
            revision="lineage-17.1" />
 
+ <!-- Dependencies -->
+  <project path="hardware/xiaomi"             name="LineageOS/android_hardware_xiaomi"                       remote="github"       />
+
  <!-- Unified ulysse device tree -->
   <project path="device/xiaomi/ulysse"        name="android_device_xiaomi_ulysse"            groups="device" remote="xiaomi-ulysse"/>
 
