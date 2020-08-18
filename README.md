@@ -1,9 +1,16 @@
 # Xiaomi Redmi Note 5A
 This is the local manifest for syncing Redmi Note 5A Lite/Prime Device Trees automatically.
 
-## Currently Supported Android ROMs
-- AospExtended 10
-- LineageOS 17.1
+## Currently Supported Android 10 ROMs
+- AospExtended
+- AICP
+- AOSIP
+- ArrowOS
+- Bootleggers
+- DirtyUnicorns
+- LineageOS
+- ResurrectionRemix
+- MSMXtended
 
 ## Currently Supported Android Recoveries
 - TWRP 9.0 based recoveries
