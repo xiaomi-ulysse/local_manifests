@@ -4,12 +4,6 @@
            fetch="https://github.com/xiaomi-ulysse"
            revision="10" />
 
- <!-- Dependencies -->
-  <project path="hardware/xiaomi"             name="LineageOS/android_hardware_xiaomi"                       remote="github"       />
-
- <!-- Unified ulysse device tree -->
-  <project path="device/xiaomi/ulysse"        name="android_device_xiaomi_ulysse"            groups="device" remote="xiaomi-ulysse"/>
-
  <!-- Common ulysse device tree -->
   <project path="device/xiaomi/ulysse-common" name="android_device_xiaomi_ulysse-common"     groups="device" remote="xiaomi-ulysse"/>
 
@@ -18,6 +12,9 @@
 
  <!-- Device Tree for Prime Variant -->
   <project path="device/xiaomi/ugg"           name="android_device_xiaomi_ugg"               groups="device" remote="xiaomi-ulysse"/>
+
+ <!-- Device Tree for Both Variants -->
+  <project path="device/xiaomi/ulysse"        name="android_device_xiaomi_ulysse"            groups="device" remote="xiaomi-ulysse"/>
 
  <!-- Android Kernel for Redmi Note 5A -->
   <project path="kernel/xiaomi/ulysse"        name="android_kernel_xiaomi_ulysse"    revision="lineage-17.1" remote="xiaomi-ulysse"/>
