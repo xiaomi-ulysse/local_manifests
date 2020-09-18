@@ -8,6 +8,7 @@ This is the local manifest for syncing Redmi Note 5A Lite/Prime Device Trees aut
 - ArrowOS
 - Bootleggers
 - DirtyUnicorns
+- Evolution X
 - LineageOS
 - MSMXtended
 - ResurrectionRemix
