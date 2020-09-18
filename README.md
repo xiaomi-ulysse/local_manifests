@@ -19,7 +19,7 @@ This is the local manifest for syncing Redmi Note 5A Lite/Prime Device Trees aut
 ```
 $ cd path-to-android-source-tree
 $ mkdir .repo/local_manifests
-$ wget [Raw URL of the corresponding manifest] -O .repo/local_manifests/ulysse.xml
+$ wget [Raw URI of the corresponding manifest] -O .repo/local_manifests/ulysse.xml
 $ repo sync
 ```
 
