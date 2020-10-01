@@ -7,12 +7,6 @@
  <!-- Common ulysse device tree -->
   <project path="device/xiaomi/ulysse-common" name="android_device_xiaomi_ulysse-common"     groups="device" remote="xiaomi-ulysse"/>
 
- <!-- Device Tree for Lite Variant -->
-  <project path="device/xiaomi/ugglite"       name="android_device_xiaomi_ugglite"           groups="device" remote="xiaomi-ulysse"/>
-
- <!-- Device Tree for Prime Variant -->
-  <project path="device/xiaomi/ugg"           name="android_device_xiaomi_ugg"               groups="device" remote="xiaomi-ulysse"/>
-
  <!-- Device Tree for Both Variants -->
   <project path="device/xiaomi/ulysse"        name="android_device_xiaomi_ulysse"            groups="device" remote="xiaomi-ulysse"/>
 
